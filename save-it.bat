@@ -1,0 +1,9 @@
+@ECHO OFF
+ECHO [CONNECTING TO THE DEVICE...]
+ECHO.
+python connect.py
+ECHO.
+ECHO [PUSHING THE FILE.]
+ECHO.
+python push.py
+PAUSE
