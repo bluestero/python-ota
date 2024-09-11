@@ -21,8 +21,8 @@ def create_backup(file_path: str) -> str:
 
 
 #-Base objects-#
-filepath = r"C:\adb\test.txt"
-destination = "/sdcard/Download/test.txt"
+filepath = r"C:\Users\Jhumritalaiyya\Desktop\Files\Github\python-ota\testing.txt"
+destination = "/sdcard/Download/testing.txt"
 
 #-Using the adb shell command to check if the file exists-#
 process = subprocess.run(

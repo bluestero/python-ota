@@ -6,7 +6,7 @@ subprocess.run(["adb", "start-server"], stdout = subprocess.DEVNULL, stderr = su
 subprocess.run(["adb", "tcpip", "5555"], stdout = subprocess.DEVNULL, stderr = subprocess.DEVNULL)
 
 #-Getting the output of the final command-#
-process = subprocess.run(["adb", "connect", "192.168.1.52:5555"], capture_output = True, text = True)
+process = subprocess.run(["adb", "connect", "192.168.1.43:5555"], capture_output = True, text = True)
 
 #-Output and error objects-#
 output = process.stdout.strip()
